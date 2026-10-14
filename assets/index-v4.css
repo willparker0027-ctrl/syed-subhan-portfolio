@@ -3,3 +3,4 @@
 .hero__nameback{position:absolute;inset:0;z-index:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.84;letter-spacing:-.015em;font-size:clamp(40px,8vw,140px);color:#ff2d12;opacity:.7;white-space:nowrap;user-select:none;text-shadow:1px 1px 0 #a01000,2px 2px 0 #800c00,3px 3px 0 #600900,4px 4px 8px rgba(0,0,0,.7),0 0 50px rgba(255,45,18,.45)}
 .footer__gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:48px 0 0}.footer__gallery img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
 @media (min-width:761px){.hero__nameback{font-size:clamp(60px,7.5vw,130px);opacity:.65}.footer__gallery{grid-template-columns:repeat(3,1fr);max-width:1200px;margin:48px auto 0}}
+.wordmark{display:none!important}
